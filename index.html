@@ -1,19 +1,30 @@
 <html>
     <head> <style type="text/css">
+        body {
+            background: #242734;
+            color: #E5E7EB;
+            }
         table{  
-             background-color: rgb(215, 215, 215);
-             border: 5px outset black;
+             background-color: #3193c4;
+             border: 5px outset #1F2937;
+             color: #cecfd1;
 
         }
         caption{
-                color: rgb(236, 77, 77);
                 font-family: Georgia, 'Times New Roman', Times, serif;
                 font-style: italic;
                 font-weight: bolder;
-                background-color: rgb(165, 238, 202);
-                border: 5px outset black;
+                color: #e0e2e6;
+                background-color: #363f7e;
+                border: 5px outset #1F2937;
                 padding-top: 10px;
                 padding-bottom: 10px;
+        }
+        .main_text{
+                color: #cecfd1;
+        }
+        .secondary_text{
+                color: #242734;
         }
         p, .radio{
                 font-size: 30px;
@@ -26,7 +37,7 @@
                 margin-top: 200px;
         }
         .radio input[type="radio"]:checked {
-                accent-color: #0011ff;
+                accent-color: #556de5;
         }
         a:link{
                 color: #0000EE;
@@ -44,61 +55,87 @@
                 text-align: center;
                 position: center;
         }
+        .center {
+                justify-items: center;
+        }
+        .joke_continuation{
+                display: grid;
+                grid-template-columns: auto auto;
+                margin-left: 75px;
+        }
+        .joke_explanation{
+                display: grid;
+                grid-template-columns: auto;
+                justify-items: center;
+        }
     </style> <h3> New World </h3>
         <title> Hello World  </title> 
     </head>
     <body>
         <p>My First HTML Code!!!!!!!!! <!--not technically--></p>
+        <div class="center">
         <table border="1" cellspacing="0" width="75%">
                 <a href=https://www.reddit.com/r/ThanksCyno><h4> this is a test link</h4></a>
-                <caption> 
+            <caption> 
                    I donno what to use for this table
                 </caption>
                 <tr>
-                    <th colspan="4"> I'll just write Random stuff </th>
+                    <th colspan="4" class="main_text"> I'll just write Random stuff </th>
                    
                  <tr> 
-                    <td colspan="2">  Random stuff (left)  </td>
-                    <td colspan="2">  Random stuff (right)  </td>
+                    <td colspan="2" class="secondary_text">  Random stuff (left)  </td>
+                    <td colspan="2" class="secondary_text">  Random stuff (right)  </td>
                 </tr>
                 <tr>
-                    <th colspan="4">Oh! I got some <i>Jokes</i></th>
+                    <th colspan="4" class="main_text">Oh! I got some <i>Jokes</i></th>
                 </tr>
                 <tr>
-                    <th colspan="2"> <i>Joke</i></th> 
-                    <th colspan="2"> <i>Punch Line</i></th>
+                    <th colspan="2" class="main_text"> <i>Joke</i></th> 
+                    <th colspan="2" class="main_text"> <i>Punch Line</i></th>
                 </tr>
                 <tr>
-                    <td colspan="2"> What do you call a fish that didn't get an F?</td>
-                    <td colspan="2"> ish...(ok that was a bad one, sorry the next one will be good) </td>
+                    <td colspan="2" class="secondary_text"> What do you call a fish that didn't get an F?</td>
+                    <td colspan="2" class="secondary_text"> ish...(ok that was a bad one, sorry the next one will be good) </td>
                 </tr>
                 <tr>
-                    <td colspan="2"> What do you say when Jean stumbs her foot on a Table? </td>
-                    <td colspan="2"> Genshin Impact (get it? because her name is Jean and her shin impacted on a table?) </td>
+                    <td colspan="2" class="secondary_text"> What do you say when Jean stumbs her foot on a Table? </td>
+                    <td colspan="2" class="secondary_text"> Genshin Impact (get it? because her name is Jean and her shin impacted on a table?) </td>
                 </tr>
                 <br>
         </table>
+        </div>
                  <p> Thats all for now folks!...............</p>
                  <p class="spacer">Just kidding,</p> <img src=image.png width="500" height="281"><p> here's more!</p>
-                 <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 1.png" alt="Why is this humble windmill such a great view?" width="500" height="281"></a>
-                 <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 2.webp" alt="Because it is the great vay-iew-vyastra" width="500" height="281"></a>
+         <div class="joke_continuation">   <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 1.png" alt="Why is this humble windmill such a great view?" width="600" height="328"></a>
+                 <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 2.webp" alt="Because it is the great vay-iew-vyastra" width="600" height="328"></a> </div>
                  <!--Yes I am using this as a source for the joke links. for now atleast-->
                     <br>  <br> <br>
-                 <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 3.webp" alt="View, Vayu... and also mahamatra, vayuvyastra... no?" width="500" height="281"></a>
-                    <p> <b><h1> Last one I promise </b></h1> </p>
+         <div class="joke_explanation">   <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 3.webp" alt="View, Vayu... and also mahamatra, vayuvyastra... no?" width="700" height="409"></a></div>
+                    <p> 
+                        <h1> 
+                            <b>
+                            Last one I promise </b>
+                        </h1> 
+                        </p>
                  <a href="https://genshindb.org/blog/all-cyno-jokes-in-genshin-impact-windblume-festival-2023"><img src="Cyno joke 4.webp" alt="I can only &quot;Sucrose&quot; that they where &quot;Colle&quot;-ing in on someone. at &quot;Lisa,&quot; that's far as &quot;Cyno&quot;" width="1000" height="546"></a>
                     <br>
                  <p> Ok this time is for sure Byeeeeee</p>
-                 <p class="spacer"> Sike!</p>
+                 <p class="spacer"> Sike! Here is a whole video!!!</p>
                      <iframe width="500" height="281" src="https://www.youtube.com/embed/w-5ZZlwEY38?si=T581fnVIqsLrIzb7&amp;controls=1" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                  <br>
                         <p> You know what? I'll let you give some jokes too,</p>
-                        <p> Here:</p>
+                            <p> Here:</p>
                 <form action="">
-                    <label for="joke">Enter your joke:</label><br>
-                        <input type="text" id="joke" name="joke" size="50"><br><br>
-                    <label for="punchline">Enter the punchline:</label><br>
-                        <input type="text" id="punchline" name="punchline" size="50"><br><br>
+                    <label for="joke">Enter your joke:</label> 
+                        <br>
+                        <input type="text" id="joke" name="joke" size="50">
+                            <br>    
+                              <br>
+                    <label for="punchline">Enter the punchline:</label>
+                        <br>
+                        <input type="text" id="punchline" name="punchline" size="50">
+                            <br>
+                              <br>
                     <p> Also another thing</p>
                     <label for="gender" class="radio"> Are you.... <br>
                         <input type="radio" name="gender" value="Gay" checked>Gay? <br>
