@@ -1,0 +1,68 @@
+body {
+            background: #242734;
+            color: #E5E7EB;
+        }
+table{  
+             background-color: #3193c4;
+             border: 5px outset #1F2937;
+             color: #cecfd1;
+
+        }
+        caption{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-weight: bolder;
+                color: #e0e2e6;
+                background-color: #363f7e;
+                border: 5px outset #1F2937;
+                padding-top: 10px;
+                padding-bottom: 10px;
+        }
+    .main_text{
+                color: #cecfd1;
+        }
+    .secondary_text{
+                color: #242734;
+        }
+p, .radio{
+                font-size: 30px;
+        }
+h3{
+                letter-spacing: 50px;
+                word-spacing: 790px;
+        }
+    .spacer{
+                margin-top: 200px;
+        }
+    .radio input[type="radio"]:checked {
+                accent-color: #556de5;
+        }
+a:link{
+                color: #0000EE;
+        }
+a:visited{
+                color: #501dc5;
+        }
+a:hover{
+                color: #FF0000;
+        }
+a:active{
+                color: #094e09;
+        }
+table, caption{
+                text-align: center;
+                position: center;
+        }
+    .center {
+                justify-items: center;
+        }
+    .joke_cont{
+                display: grid;
+                grid-template-columns: auto auto;
+                margin-left: 75px;
+        }
+    .joke_expl{
+                display: grid;
+                grid-template-columns: auto;
+                justify-items: center;
+        }
